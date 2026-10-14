@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Lunar Apparatus signal map</title>
+  <desc id="desc">A black and amber diagram showing audio input and MIDI entering a Daisy Seed based Lunar Apparatus core, which connects to granular capture, voice resynthesis, touch interface and stereo output.</desc>
+  <rect width="1200" height="675" fill="#080806"/>
+  <g fill="none" stroke="#5d3a10" stroke-width="1">
+    <path d="M0 92H1200M0 230H1200M0 368H1200M0 506H1200M120 0V675M360 0V675M600 0V675M840 0V675M1080 0V675" opacity=".55"/>
+  </g>
+  <g fill="#e7a83b" font-family="monospace">
+    <text x="64" y="80" font-size="23" letter-spacing="7">LUNAR APPARATUS</text>
+    <text x="65" y="111" font-size="12" fill="#b8832d" letter-spacing="3">EXPERIMENTAL EMBEDDED INSTRUMENT PLATFORM</text>
+  </g>
+  <g fill="none" stroke="#e7a83b" stroke-width="2">
+    <path d="M92 332H235M384 332H500M700 332H815M965 332H1108"/>
+    <path d="M642 233V190H838M642 431V487H838"/>
+    <path d="M938 233V190H1050M938 431V487H1050"/>
+  </g>
+  <g fill="#e7a83b">
+    <circle cx="235" cy="332" r="5"/><circle cx="500" cy="332" r="5"/><circle cx="815" cy="332" r="5"/><circle cx="965" cy="332" r="5"/>
+  </g>
+  <g font-family="monospace" fill="#f2d698">
+    <text x="64" y="309" font-size="17">AUDIO IN</text><text x="64" y="331" font-size="12" fill="#b8832d">STEREO CAPTURE</text>
+    <text x="64" y="397" font-size="17">DIN MIDI</text><text x="64" y="419" font-size="12" fill="#b8832d">SEQUENCED CONTROL</text>
+  </g>
+  <rect x="235" y="263" width="149" height="138" fill="#14110a" stroke="#e7a83b" stroke-width="2"/>
+  <text x="258" y="309" fill="#f2d698" font-family="monospace" font-size="17">DAISY SEED</text>
+  <text x="263" y="333" fill="#b8832d" font-family="monospace" font-size="12">STM32H7</text>
+  <text x="251" y="359" fill="#b8832d" font-family="monospace" font-size="12">48 kHz / 16 FRAMES</text>
+  <rect x="500" y="230" width="200" height="205" fill="#1c1609" stroke="#e7a83b" stroke-width="2"/>
+  <text x="522" y="285" fill="#f2d698" font-family="monospace" font-size="20">LUNAR CORE</text>
+  <text x="522" y="315" fill="#b8832d" font-family="monospace" font-size="12">ROUTER / PARTS</text>
+  <text x="522" y="338" fill="#b8832d" font-family="monospace" font-size="12">ENGINE INSTANCES</text>
+  <text x="522" y="361" fill="#b8832d" font-family="monospace" font-size="12">AUDIO SAFETY</text>
+  <text x="522" y="384" fill="#b8832d" font-family="monospace" font-size="12">DIAGNOSTICS</text>
+  <g font-family="monospace">
+    <text x="840" y="178" fill="#f2d698" font-size="16">GRAIN</text><text x="840" y="198" fill="#b8832d" font-size="11">SDRAM HISTORY</text>
+    <text x="1055" y="178" fill="#f2d698" font-size="16">TOUCH TFT</text><text x="1055" y="198" fill="#b8832d" font-size="11">BLACK / AMBER UI</text>
+    <text x="840" y="510" fill="#f2d698" font-size="16">VOICE LABS</text><text x="840" y="530" fill="#b8832d" font-size="11">RESYNTHESIS</text>
+    <text x="1055" y="510" fill="#f2d698" font-size="16">STEREO OUT</text><text x="1055" y="530" fill="#b8832d" font-size="11">INSTRUMENT OUTPUT</text>
+  </g>
+  <g fill="#b8832d" font-family="monospace" font-size="11" letter-spacing="1">
+    <text x="64" y="624">SOURCE-DERIVED CONCEPT MAP • ACTIVE DEVELOPMENT • NO PRODUCT CLAIMS</text>
+    <text x="981" y="624">2026</text>
+  </g>
+</svg>
