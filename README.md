@@ -15,7 +15,7 @@ The current Lunar foundation separates the instrument into practical layers:
 | Layer | Current role |
 | --- | --- |
 | Audio | 48 kHz audio, 16-sample blocks, protected stereo output stage |
-| Control | DIN MIDI receive, touch-screen control, and a physical capture button |
+| Control | DIN MIDI transport and routing under active integration, touch-screen control, and a physical capture button |
 | Instrument core | Part routing, fixed engine instances, ordered audio commands, and safe engine transitions |
 | Display | A foreground-only TFT/touch interface with black and amber visual language |
 | Experiments | Granular capture, voice resynthesis, vocal synthesis, vocoder, wavetable, and speech-oriented studies |
@@ -30,7 +30,7 @@ The granular instrument records a rolling stereo history in external SDRAM, then
 
 ### Voice resynthesis
 
-`VoiceResynthLab` is a separate Daisy Seed experiment for four-second stereo capture and MIDI-sequenced resynthesis. It keeps a RAW reference lane beside distinct PSOLA, spectral, harmonic-plus-noise, and LPC treatments. These are deliberately separate approaches to the same captured material, with their limits documented in the source.
+`VoiceResynthLab` is a separate Daisy Seed experiment for approximately four-second mono capture and MIDI-sequenced resynthesis. It keeps a RAW reference lane beside distinct PSOLA, spectral, harmonic-plus-noise, and LPC treatments. These are deliberately separate approaches to the same captured material, with their limits documented in the source.
 
 ### Multi-engine instrument work
 
